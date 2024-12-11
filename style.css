@@ -1,0 +1,70 @@
+body {
+    background: url('background1.PNG') no-repeat center center fixed;
+    background-size: cover;
+}
+
+header img {
+    width: 100px;
+    position: relative;
+    margin: 50px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+    
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    margin: 0 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333333;
+    text-decoration: none;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline;
+}
+
+table {
+    width: 70%;
+    padding: 10px;
+    
+}
+
+.member{
+    color: white;
+}
+
+th, td {
+    border: 1px solid #000; 
+    padding: 10px;
+    text-align: center; 
+}
+
+table th {
+    background-color: #A67B5B;
+}
+
+table td {
+    background-color: #EED9C4;
+}
+
+table td:first-child {
+    text-align: left;
+}
+
+form {
+    background-color: #fbd2ae;
+    width: 400px;
+    padding: 10px; 
+    border: 1px solid #000;
+}
+
+.error {
+    color: red;
+}
